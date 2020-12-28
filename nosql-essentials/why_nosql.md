@@ -15,4 +15,6 @@ coordenação de acessos, para que evite-se erros e informações incosistentes.
 
 - Integração:
 Várias aplicações podem juntas formar uma grande aplicação, que dependem dos dados de uma das outras. Uma possível solução para isso, usando bancos relacionais,
-é criar uma arquitetura de *shared database integration*, em que todas as aplicações acessam um mesmo repositório de dados.
+é criar uma arquitetura de *shared database integration*, em que todas as aplicações acessam um mesmo repositório de dados. Assim, graças ao conceito de transação descrito anteriormente, as aplicações conseguem escrever/ler dados com garantia de estarem íntegros.
+
+- Um modelo Padronizado:
